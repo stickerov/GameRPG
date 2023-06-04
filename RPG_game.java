@@ -38,7 +38,6 @@ public class RPG_game {
         swordsman.Attack(archer);
         archer.Attack(swordsman);
         swordsman.Attack(archer);
-        archer.Attack(swordsman);
 
         // TermPrint(swordsman.GetStat());
     }

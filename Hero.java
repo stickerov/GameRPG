@@ -11,8 +11,8 @@ public abstract class Hero {
 
     private String name;
     private int health;
-    private Weapon weapon;
-    private Armor armor;
+    public Weapon weapon;
+    public Armor armor;
 
     public Hero(String name, int health) {
         ++Hero.number;
